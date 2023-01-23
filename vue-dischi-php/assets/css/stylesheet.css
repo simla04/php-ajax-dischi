@@ -1,0 +1,15 @@
+/* variabili: struttura variabili in css, css base*/
+:root{
+    --headerBackground: #303a46;
+    --bodyBackground: #202D3B;
+}
+body{
+    background-color: var(--bodyBackground);
+}
+
+header{
+    background-color: var(--headerBackground);
+}
+.card{
+    background-color: var(--headerBackground);
+}
